@@ -1,0 +1,121 @@
+---
+title: "Análisis de la Opción MSFT Sep 2024 370.000 call (MSFT240927C00370000)"
+author: "José Miguel Olave"
+date: "25 de Septiembre de 2024"
+output: html_document
+---
+
+# Análisis de la Opción MSFT Sep 2024 370.000 call (MSFT240927C00370000)
+
+## 1. Sector/Temática
+
+El activo derivado MSFT Sep 2024 370.000 Call (MSFT240927C00370000) pertenece al sector tecnológico, una industria clave en el crecimiento y la innovación global. Microsoft Corporation es una de las empresas más influyentes en el mundo, no solo por su tamaño y capitalización bursátil, sino también por su liderazgo en áreas como software, inteligencia artificial, servicios en la nube, hardware y videojuegos. A diferencia de sectores tradicionales como el industrial o energético, el sector tecnológico se caracteriza por su rápida evolución y disrupciones continuas impulsadas por avances científicos y tecnológicos.
+
+En este contexto, las acciones de empresas como Microsoft dependen en gran medida de su capacidad para innovar, adaptarse a nuevas tecnologías y mantenerse competitivas. Según estudios recientes (Garcia y Nguyen, 2020), las grandes empresas tecnológicas han mostrado una resiliencia superior en tiempos de crisis, gracias a su diversificación de productos y mercados, así como a su capacidad de atraer inversiones sustanciales en investigación y desarrollo. Microsoft, con su enfoque en el crecimiento a través de la inteligencia artificial, el cloud computing y otros avances tecnológicos, ha logrado mantenerse como un líder indiscutido en el sector.
+
+Las opciones sobre las acciones de Microsoft, como la MSFT Sep 2024 370.000 Call, ofrecen a los inversores la oportunidad de capitalizar este crecimiento sin asumir el riesgo completo de la compra directa de acciones. Las opciones de compra permiten a los inversores obtener beneficios si las acciones de Microsoft siguen aumentando su valor, algo muy probable dado el contexto de crecimiento sostenido en el sector tecnológico.
+
+## 2. Motivación
+
+La selección de la opción MSFT Sep 2024 370.000 Call está directamente relacionada con la capacidad de Microsoft para seguir siendo un líder en el sector tecnológico. El sector tecnológico, en general, está en una fase de expansión, impulsado por la transformación digital y el aumento de la demanda de soluciones de nube y servicios basados en inteligencia artificial. En este entorno, Microsoft ha mostrado una fuerte trayectoria de crecimiento, y las proyecciones para los próximos años son positivas.
+
+El uso de una opción de compra en este contexto permite a los inversores mitigar el riesgo, ya que la pérdida máxima se limita a la prima pagada, mientras que el potencial de ganancias puede ser significativo si las acciones de Microsoft continúan subiendo. Esto es particularmente importante en sectores como el tecnológico, donde la volatilidad puede ser alta debido a la constante innovación y la competencia feroz. En estudios como los de Hull (2018) y Merton (1976), se destaca que las opciones de compra son estrategias útiles en mercados volátiles, ya que permiten aprovechar las oportunidades de crecimiento sin exponerse completamente al riesgo del mercado.
+
+Dado que Microsoft está bien posicionada para aprovechar las tendencias de crecimiento tecnológico, como la adopción global de la nube y la inteligencia artificial, la opción MSFT Sep 2024 370.000 Call es una inversión estratégica. Además, dado que el precio actual de las acciones de Microsoft es de $435.27, la opción está "in-the-money", lo que aumenta su atractivo para los inversores.
+
+## 3. Variables Fundamentales del Análisis
+
+A continuación, se detallan las tres variables clave que se han seleccionado para el análisis:
+
+- **Duración hasta el vencimiento (T):** Esta variable juega un papel crucial en la valoración de las opciones. La opción MSFT Sep 2024 370.000 Call tiene un vencimiento en septiembre de 2024, lo que le otorga un horizonte temporal significativo para que las acciones de Microsoft sigan aumentando su valor. La variable T refleja el tiempo restante hasta la fecha de vencimiento y afecta directamente el valor temporal de la opción. A medida que la opción se acerca a su vencimiento, su valor temporal disminuye debido al menor tiempo disponible para que el precio del activo subyacente fluctúe. Esto se conoce como la "decadencia temporal" o theta.
+  
+- **Tasa libre de riesgo (r):** Para el análisis se ha utilizado la tasa de rendimiento al vencimiento del United States 1 Month Government Bond Yield (US01MY), que en este caso es del 4.76%. La tasa libre de riesgo es una variable fundamental, ya que se utiliza para descontar los flujos de caja futuros en la valoración de la opción. En el modelo de Black-Scholes, la tasa libre de riesgo afecta el cálculo del valor presente del precio de ejercicio. Un aumento en esta tasa tiende a incrementar el valor de las opciones de compra.
+  
+- **Precio del bono (B):** El bono seleccionado es un bono del Tesoro de EE. UU. a un mes con un valor nominal de $1000. Este bono, considerado como un activo libre de riesgo, proporciona un rendimiento seguro y se utiliza en el análisis como un punto de referencia para la tasa libre de riesgo. El precio del bono es relevante para los cálculos del modelo binomial, donde se toma en cuenta el rendimiento garantizado del bono en cada estado posible del mercado.
+
+## 4. Activos Seleccionados
+
+1. **Activo Subyacente (Microsoft):** El activo subyacente es Microsoft Corporation, cuyo precio actual es de $435.27. Microsoft ha experimentado un crecimiento sostenido gracias a su capacidad para liderar la transformación digital en el ámbito empresarial y consumidor. Con su plataforma de nube Azure, la expansión de servicios de inteligencia artificial y su sólido ecosistema de software, la compañía ha mantenido una posición de liderazgo en la industria. A medida que continúa innovando, especialmente en tecnologías emergentes, se espera que el valor de las acciones siga aumentando en el futuro.
+
+2. **Opción de compra (MSFT Sep 2024 370.000 Call):** La opción de compra MSFT Sep 2024 370.000 Call otorga al titular el derecho, pero no la obligación, de comprar acciones de Microsoft a un precio de $370 antes o en la fecha de vencimiento (septiembre de 2024). Actualmente, la prima de la opción es de $66.30, y dado que el precio del activo subyacente es de $435.27, la opción está "in-the-money", con un valor intrínseco de $65.27. Esto convierte a la opción en una inversión atractiva, especialmente si se espera que el precio de las acciones siga aumentando.
+
+3. **Bono del Tesoro de EE. UU. a un mes:** El United States 1 Month Government Bond Yield es un bono de corto plazo que ofrece una tasa de rendimiento anual del 4.76%. Este bono se utiliza como un activo libre de riesgo, y su rendimiento es clave para descontar los flujos de caja futuros en ambos modelos de valoración (binomial y Black-Scholes). En los análisis de derivados financieros, los bonos del Tesoro suelen emplearse como referencia debido a su bajo riesgo y su alta liquidez en el mercado.
+
+## 5. Análisis Formal de la Opción
+
+Para realizar el análisis formal de la opción MSFT Sep 2024 370.000 Call, se utilizó el cuaderno de Google Colab ArbitrajeBlackScholes.ipynb para calcular el valor de la opción utilizando tanto el modelo binomial como el modelo de Black-Scholes. Los parámetros clave que se utilizaron para este análisis son los siguientes:
+
+- Precio de Ejercicio (K): $370
+- Precio del Activo Subyacente (S0): $435.27
+- Tasa Libre de Riesgo (r): 4.76%
+- Precio del Bono (B): $1000
+- Duración hasta el Vencimiento (T): Aproximadamente 1 año
+- Precio de la Opción (q3): $66.30
+
+Cálculo de los Factores de Aumento (u) y Disminución (d):
+
+- Precio del Activo en Estado downer (St(wd)): d×435.27=434.07
+- Precio del Activo en Estado upper (St(wu)): u×435.27=436.47
+- El valor de d (factor de movimiento en estado downer): 0.9972
+- Valor de u (factor de movimiento en estado upper): 1.0028
+
+## 6. Comparativa entre el Modelo Binomial y el Modelo de Black-Scholes
+
+En esta sección, se comparan los resultados obtenidos al valorar la opción MSFT Sep 2024 370.000 Call mediante los modelos binomial y Black-Scholes. Se incluye una discusión detallada sobre los parámetros clave, como la volatilidad implícita (sigma) y la tasa libre de riesgo (r), así como una evaluación de los resultados en ambos enfoques.
+
+- **Sigma (σ):** Se utilizó un valor de volatilidad implícita de 1.2, derivado de las fluctuaciones diarias observadas en el Day's Range de la acción. Este valor refleja un nivel elevado de volatilidad, lo cual es común en el sector tecnológico, donde las acciones de empresas como Microsoft pueden experimentar fluctuaciones significativas debido a innovaciones o cambios en las condiciones del mercado.
+- **Tasa libre de riesgo (r):** El rendimiento al vencimiento del United States 1 Month Government Bond Yield (US01MY) fue de 4.76%. Esta tasa se utilizó para descontar los flujos de caja futuros en ambos modelos, lo que afecta el valor presente del precio de ejercicio y, por ende, el valor de la opción. En escenarios de alta volatilidad, una mayor tasa libre de riesgo tiende a aumentar el valor de las opciones de compra.
+
+### 6.1. Modelo Binomial
+
+El modelo binomial ofrece una estructura discreta para modelar el comportamiento del precio del activo subyacente a lo largo del tiempo. En este análisis, el valor de la opción obtenido con el modelo binomial fue de $66.30. El modelo binomial es flexible y permite modelar fluctuaciones en múltiples periodos, ajustándose mejor a las variaciones de volatilidad que pueden surgir en mercados volátiles como el tecnológico.
+
+El cálculo de los factores de aumento (u) y disminución (d) para este modelo fue el siguiente:
+
+- u = 1.0028, obtenido dividiendo el precio del activo subyacente en el estado "upper" ($436.47) entre el precio actual ($435.27).
+- d = 0.9972, obtenido dividiendo el precio del activo subyacente en el estado "downer" ($434.07) entre el precio actual ($435.27).
+
+Este modelo es especialmente útil cuando se espera que la volatilidad varíe con el tiempo, lo cual es común en sectores disruptivos como el tecnológico. En este caso, el valor calculado de la opción es coherente con las expectativas del mercado y refleja bien los escenarios futuros posibles para Microsoft.
+
+### 6.2. Modelo de Black-Scholes
+
+El modelo de Black-Scholes, por otro lado, es una fórmula cerrada que asume un entorno de volatilidad constante y continuo. En este análisis, el valor de la opción utilizando Black-Scholes fue de $67.77, ligeramente superior al valor calculado con el modelo binomial.
+
+Este resultado refleja que el modelo de Black-Scholes, al asumir una volatilidad constante (sigma = 1.2) y una tasa libre de riesgo de 4.76%, anticipa un mayor valor temporal para la opción. La suposición de que la volatilidad se mantiene constante a lo largo del tiempo, junto con la capacidad del modelo para considerar fluctuaciones continuas, explica el mayor valor calculado.
+
+### 6.3. Comparación de Resultados
+
+A continuación, se presenta un resumen comparativo de los resultados obtenidos en ambos modelos:
+
+- Precio de la Opción (Modelo Binomial): $66.30
+- Precio de la Opción (Modelo Black-Scholes): $67.77
+
+Aunque la diferencia entre los precios obtenidos con ambos modelos es relativamente pequeña, es importante destacar que el modelo binomial es más flexible, ya que puede incorporar variaciones en la volatilidad y en otros factores a lo largo del tiempo. Esto lo hace ideal para escenarios en los que se espera que el precio del activo subyacente fluctúe de manera significativa en el corto plazo. El modelo de Black-Scholes, por su parte, es más adecuado en mercados donde se asume que las condiciones son estables y la volatilidad permanece constante.
+
+### 6.4. Evaluación sobre el Ejercicio de la Opción
+
+El precio actual de las acciones de Microsoft es de $435.27, mientras que el precio de ejercicio de la opción es de $370, lo que significa que la opción está claramente "in-the-money". El valor intrínseco de la opción es de $65.27, lo que indica que, si se ejerciera ahora, se obtendría una ganancia equivalente a esta cantidad.
+
+Sin embargo, dado que el valor temporal de la opción aún es significativo, y considerando que faltan varios meses hasta el vencimiento en septiembre de 2024, no sería recomendable ejercer la opción de inmediato. En cambio, sería prudente esperar a que el valor de las acciones de Microsoft aumente aún más, lo que incrementaría tanto el valor intrínseco como el valor temporal de la opción antes de su vencimiento.
+
+### 6.5. Conclusión de la Comparativa
+
+En conclusión, tanto el modelo binomial como el modelo de Black-Scholes ofrecen resultados consistentes, aunque el valor calculado por Black-Scholes es ligeramente superior debido a sus suposiciones sobre la volatilidad constante y la continuidad del mercado. El modelo binomial proporciona una visión más conservadora y adaptable a escenarios de volatilidad variable, lo que lo hace particularmente útil en el contexto del sector tecnológico, donde las fluctuaciones en el precio del activo subyacente pueden ser significativas.
+
+En este caso, dado que la opción MSFT Sep 2024 370.000 Call está "in-the-money" y el valor temporal sigue siendo considerable, se recomienda esperar antes de ejercer la opción, maximizando así las posibles ganancias a medida que el valor de las acciones de Microsoft continúe aumentando en los próximos meses. Ambos modelos son herramientas válidas y valiosas para los inversores, y su elección depende de las expectativas sobre la volatilidad y la estabilidad del mercado.
+
+## 7. Resultados
+
+- **Modelo Binomial:** El modelo binomial, que utiliza un enfoque discreto basado en múltiples periodos de tiempo, arrojó un valor de la opción cercano a $66.30. Este modelo toma en cuenta las fluctuaciones diarias del mercado y los posibles movimientos del precio del activo subyacente, lo que lo convierte en una herramienta útil para evaluar escenarios de volatilidad cambiante. En este caso, el valor de la opción fue coherente con el precio de mercado.
+  
+- **Modelo de Black-Scholes:** Con el modelo de Black-Scholes, el valor de la opción resultó ser de $67.77, ligeramente superior al valor obtenido con el modelo binomial. Este modelo continuo asume una volatilidad constante y un entorno de mercado más estable, lo que explica la diferencia en el valor de la opción. El precio más alto en el modelo de Black-Scholes refleja la expectativa de estabilidad del mercado en el largo plazo.
+
+## 8. Conclusión
+
+La opción MSFT Sep 2024 370.000 Call representa una excelente oportunidad para los inversores debido a su situación actual "in-the-money" y a su valor temporal significativo, que aún puede ser capitalizado antes de su vencimiento. Los resultados obtenidos mediante los modelos binomial y Black-Scholes son consistentes y ofrecen una visión clara del potencial de la opción, aunque el valor estimado por el modelo de Black-Scholes es ligeramente superior debido a las suposiciones de volatilidad constante y un entorno de mercado estable. Este diferencial refleja la mayor estabilidad que Black-Scholes asume, lo que da lugar a un valor temporal mayor para la opción.
+
+El análisis sugiere que, aunque la opción tiene un valor intrínseco positivo debido a que el precio de las acciones de Microsoft supera el precio de ejercicio, no es recomendable ejercerla de inmediato. El horizonte temporal hasta el vencimiento en septiembre de 2024 ofrece espacio suficiente para que el precio del activo subyacente siga aumentando, lo que incrementaría aún más el valor de la opción.
+
+Ambos modelos demuestran que la opción MSFT Sep 2024 370.000 Call es una herramienta sólida para aprovechar el crecimiento continuo de Microsoft, impulsado por su liderazgo en la innovación tecnológica y su enfoque en áreas de alto crecimiento como el cloud computing y la inteligencia artificial. En el contexto de una industria que sigue avanzando rápidamente, mantener la opción hasta un momento más cercano a su vencimiento permitiría maximizar los beneficios de la volatilidad del mercado y el potencial de crecimiento de la empresa.
+
+En definitiva, tanto el modelo binomial como el de Black-Scholes proporcionan perspectivas complementarias que subrayan la viabilidad de esta opción como una inversión estratégica a futuro. Su flexibilidad y la resiliencia del sector tecnológico respaldan la decisión de esperar antes de ejercer la opción, en busca de mayores ganancias.
